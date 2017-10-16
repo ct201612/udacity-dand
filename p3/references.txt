@@ -1,0 +1,17 @@
+1.下载地图网站：mapzen:https://mapzen.com/data/metro-extracts
+
+
+2.看完你就会正则表达式：http://mp.weixin.qq.com/s?__biz=MjM5ODg1NDI4OA==&mid=2651339860&idx=1&sn=fdc8ed53fb00868f2f411a18dba1c885&chksm=bd38f7ab8a4f7ebdbc57ddf752bec987d26fa4d3e76e10c3aaa5a6eaabbdf97841e66939b2f6&scene=4#wechat_redirect
+
+3.OpenStreetMap Wiki:Map_Features：http://wiki.openstreetmap.org/wiki/Zh-hans:Map_Features
+
+4.Python `if x is not None` or `if not x is None`?
+https://stackoverflow.com/questions/2710940/python-if-x-is-not-none-or-if-not-x-is-none
+
+5.Alternative to the `match = re.match(); if match: …` idiom?
+
+https://stackoverflow.com/questions/1152385/alternative-to-the-match-re-match-if-match-idiom
+
+6.Sum() in python
+
+https://stackoverflow.com/questions/6007808/sum-in-python

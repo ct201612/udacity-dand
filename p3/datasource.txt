@@ -1,0 +1,3 @@
+这个地图区域是boston区域，数据文档来自mapzen网站，下载连接是：https://s3.amazonaws.com/metro-extracts.mapzen.com/boston_massachusetts.osm.bz2
+
+我选择这个地图区域的原因是波士顿是全球知名城市之一，文化底蕴浓厚；当然，波士顿有很多全球著名的大学，如哈佛，剑桥；
