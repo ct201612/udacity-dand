@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/32701649/how-to-get-the-scores-of-each-feature-from-sklearn-feature-selection-selectkbest
+
+http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+
+http://scikit-learn.org/stable/modules/grid_search.html
+
+https://stackoverflow.com/questions/30102973/how-to-get-best-estimator-on-gridsearchcv-random-forest-classifier-scikit
+
+https://stackoverflow.com/questions/6005159/when-to-use-r-instead-of-s-in-python

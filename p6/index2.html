@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+	<title>Titanic Data visulization</title>
+	<style type="text/css">
+		h1 {
+			text-align: justify;
+		}
+		body {
+			margin: 50px;
+		}
+		h2 {
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<h1>泰坦尼克号轮船事故中的存活率和死亡率</h1>
+	<p>我将泰坦尼克号事故中891名乘客信息，按照性别和船舱分成两组图；通过以下的视图我们看到哪类乘客更可能幸存</p>
+
+	<div id="chartContainer">
+		<h2>Survival Rate by Sex</h2>
+
+		<script type="text/javascript">
+			var svg1 = dimple.newSvg('#chartContainer', 650, 500);
+			d3.csv('data.csv', function (data) {
+				// body...
+				var myChart = new dimple.chart(svg1, data);
+				myChart.setBounds(60, 30, 550, 305);
+				var x = myChart.addCategoryAxis('x', 'Sex');
+				x.addOrderRule('Sex');
+				var y = myChart.addPctAxis('y', 'Rate');
+				var s = myChart.addSeries('Status', dimple.plot.bar);
+				myChart.addLegend(80, 10, 510, 20, 'right');
+				myChart.draw(1000);
+			
+			});
+		</script>
+	</div>
+
+	
+	<div id="chartContainer2">
+		<h2>Survival Rate by Pclass</h2>
+
+		<script type="text/javascript">
+			var svg2 = dimple.newSvg('#chartContainer2', 650, 500);
+			d3.csv('data.csv', function (data) {
+				// body...
+				var myChart = new dimple.chart(svg2, data);
+				myChart.setBounds(60, 30, 550, 305);
+				var x = myChart.addCategoryAxis('x', 'Pclass');
+				x.addOrderRule('Pclass');
+				var y = myChart.addPctAxis('y', 'Rate');
+				var s = myChart.addSeries('Status', dimple.plot.bar);
+				myChart.addLegend(80, 10, 510, 20, 'right');
+				myChart.draw(1000);
+			
+			});
+		</script>
+	</div>
+
+</body>
+</html>

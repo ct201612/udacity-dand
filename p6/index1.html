@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+	<title>Titanic Data visulization</title>
+	<style type="text/css">
+		body {
+			margin: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h2>泰坦尼克可视化</h2>
+	<p>展示泰坦尼克号事故中891名乘客的性别（Sex）与存活（Survived）的关系；</p>
+
+	<div id="chartContainer">
+		<script type="text/javascript">
+			var svg = dimple.newSvg('#chartContainer', 650, 500);
+			d3.csv('titanic_data.csv', function (data) {
+				// body...
+				var myChart = new dimple.chart(svg, data);
+				myChart.setBounds(60, 30, 550, 305);
+				var x = myChart.addCategoryAxis('x', 'Sex');
+				x.addOrderRule('Sex');
+				var y = myChart.addPctAxis('y', 'PassengerId');
+				var s = myChart.addSeries('Survived', dimple.plot.bar);
+				myChart.addLegend(80, 10, 510, 20, 'right');
+				myChart.draw(1000);
+			
+			});
+		</script>
+	</div>
+
+</body>
+</html>
