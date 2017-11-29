@@ -45,34 +45,44 @@
 y轴名，标题；
 
 如何修改会更好？
+
 1.修改y轴名以及其它图标；
+
 2.修改标题，更能突出主题；
 
 #### 反馈2 （对index1.html）
 你觉得这个可视化主要表达了什么？
+
 1.女性存活率比男性高；
 
 这个图形中你有什么不明白的地方吗？
+
 乘客的存活率除了跟性别相关，还跟什么特征相关；
 
 如何修改会更好？
+
 添加至少一个相关特征的图；
 
 #### 反馈3 （对index2.html）
 你觉得这个可视化主要表达了什么？
+
 1.女性存活率比男性高；
+
 2.三个船舱等级中，class1的存活率最高，其次是class2，class3存活率最低；
 
 这个图形中你有什么不明白的地方吗？
+
 乘客的存活人数和死者人数分别是多少
 
 如何修改会更好？
+
 1.在柱形图标明人数；
+
 2.添加按钮切换；
 
 ### 参考资源
-[Dimple.js - Add data labels to each bar of the bar chart]
-(https://stackoverflow.com/questions/18558045/dimple-js-add-data-labels-to-each-bar-of-the-bar-chart)
+Dimple.js - Add data labels to each bar of the bar chart
+https://stackoverflow.com/questions/18558045/dimple-js-add-data-labels-to-each-bar-of-the-bar-chart
 
 Dimple Stacked Bar Chart - adding label for aggregate total
 https://stackoverflow.com/questions/29177336/dimple-stacked-bar-chart-adding-label-for-aggregate-total
