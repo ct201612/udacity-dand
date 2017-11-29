@@ -2,16 +2,16 @@
 Projects for my Udacity Data Analyst Nanodegree(advanced)
 
 ## Courses taken:
+* Data Wrangling with MongoDB (p3)
+* Data Analysis with R (p4)
+* Intro to Machine Learning (p5)
+* Data Visualization and D3.js (p6)
+
 * Descriptive Statistics (Self-Study)
 * Inferential Statistics (Self-Study)
 * Intro to Data Analysis (Self-Study)
 * Data Visualization in Tableau (Self-Study)
 * A/B Testing (Self-Study)
-
-* Data Wrangling with MongoDB (p3)
-* Data Analysis with R (p4)
-* Intro to Machine Learning (p5)
-* Data Visualization and D3.js (p6)
 
 ## Skills acquired:
 * Python (inc. numpy, pandas, scikit-learn, ggplot...)
