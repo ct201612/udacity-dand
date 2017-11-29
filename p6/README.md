@@ -37,9 +37,11 @@
 ### 反馈
 #### 反馈1（对index1.html）
 你觉得这个可视化主要表达了什么？
+
 女性的存活率比男性高；
 
 这个图形中你有什么不明白的地方吗？
+
 y轴名，标题；
 
 如何修改会更好？
@@ -69,8 +71,8 @@ y轴名，标题；
 2.添加按钮切换；
 
 ### 参考资源
-Dimple.js - Add data labels to each bar of the bar chart
-https://stackoverflow.com/questions/18558045/dimple-js-add-data-labels-to-each-bar-of-the-bar-chart
+[Dimple.js - Add data labels to each bar of the bar chart]
+(https://stackoverflow.com/questions/18558045/dimple-js-add-data-labels-to-each-bar-of-the-bar-chart)
 
 Dimple Stacked Bar Chart - adding label for aggregate total
 https://stackoverflow.com/questions/29177336/dimple-stacked-bar-chart-adding-label-for-aggregate-total
